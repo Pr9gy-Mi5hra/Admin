@@ -9,19 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.12",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@stacks/auth": "^6.12.0",
+    "@stacks/connect": "^7.7.1",
+    "@types/axios": "^0.14.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/js-cookie": "^3.0.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/moment": "^2.13.0",
+    "@types/react-redux": "^7.1.33",
+    "@types/redux-thunk": "^2.1.0",
+    "bcrypt": "^5.1.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "next": "14.1.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.3"
+    "react-icons": "^5.0.1",
+    "react-quill": "^2.0.0",
+    "react-redux": "^9.1.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.3"
+    "eslint-config-next": "14.1.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
